@@ -1,0 +1,42 @@
+env/
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore environment variables & secrets
+*.env
+.env
+*.key
+*.pem
+
+# Ignore SQLite database & migrations
+db.sqlite3
+*.sqlite3
+*/migrations/*
+
+# Ignore Django logs
+logs/
+*.log
+debug.log
+
+# Ignore media/uploads (optional)
+media/
+staticfiles/
+
+# Ignore IDE files
+.vscode/
+*.swp
+.idea/
+*.sublime-workspace
+
+# Ignore Node.js dependencies (if using)
+node_modules/
+
+# Ignore Docker-related files
+docker-compose.override.yml
